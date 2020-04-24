@@ -1,0 +1,28 @@
+{
+  "name": "sonarqube-projects-status",
+  "version": "1.0.0",
+  "description": "Projeto que extrai relatório de status dos projetos qualificados pelo http://sonarqube.srv-cld.brasilseg.com.br/.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "exec": "node dist/index.js",
+    "build": "tsc",
+    "watch": "tsc -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.srv-cld.brasilseg.com.br/devops/reports/sonarqube-projects-status.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "dotenv": "^8.2.0",
+    "excel4node": "^1.7.2"
+  },
+  "devDependencies": {
+    "typescript": "^3.8.2",
+    "ts-node": "^8.6.2",
+    "@types/node": "^13.7.6"
+  }
+}
