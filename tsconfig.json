@@ -28,6 +28,7 @@
   "exclude": [
     "cdk.out",
     "node_modules",
-    "dist"
+    "dist",
+    ".github"
   ]
 }
