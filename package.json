@@ -1,7 +1,7 @@
 {
   "name": "sonarqube-projects-status",
   "version": "1.0.0",
-  "description": "Projeto que extrai relatório de status dos projetos qualificados pelo http://sonarqube.srv-cld.brasilseg.com.br/.",
+  "description": "Projeto que extrai relatório de status dos projetos qualificados pelo sonarqube",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://gitlab.srv-cld.brasilseg.com.br/devops/reports/sonarqube-projects-status.git"
+    "url": "https://github.com/LeandroSoares/sonarcubeapi.git"
   },
   "author": "",
   "license": "ISC",
